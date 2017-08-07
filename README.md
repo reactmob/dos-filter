@@ -3,6 +3,8 @@ Accessible, extensible, Filter for React.js
 
 > Inspired by: https://github.com/amitayh/react-redux-test
 
+Feedback and PR welcome!
+
 ## Demo
 ![c4ku0bls4k](https://user-images.githubusercontent.com/206804/29043899-399254e8-7be7-11e7-8664-1891b27c7ba1.gif)
 
