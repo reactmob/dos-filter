@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './style.scss';
-import { Filter, RemoteConfig } from './lib';
-import { FilterList, StringType, NumberType, DateType, SelectType, ExistsType } from './lib/Fabric';
+import { Filter, RemoteConfig, FilterList, StringType, NumberType, DateType, SelectType, ExistsType } from 'reactmob-filter';
 
 const countries = [
     { abbr: 'AL', name: 'Alabama' },
