@@ -20,6 +20,7 @@ $ npm install --save reactmob-filter
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Set } from 'immutable';
 
 import './style.scss';
 import {
