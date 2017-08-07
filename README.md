@@ -1,15 +1,22 @@
-# dos-filter
+# reacrmob-filter
 Accessible, extensible, Filter for React.js
 
 > Inspired by: https://github.com/amitayh/react-redux-test
 
 Feedback and PR welcome!
 
+## Installation
+```shell
+$ yarn add reactmob-filter
+# or via npm
+$ npm install --save reactmob-filter
+```
+
 ## Demo
 ![c4ku0bls4k](https://user-images.githubusercontent.com/206804/29043899-399254e8-7be7-11e7-8664-1891b27c7ba1.gif)
 
 
-### demo.jsx
+### Usage
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
