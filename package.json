@@ -1,6 +1,6 @@
 {
     "name": "reactmob-filter",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "private": false,
     "description": "Accessible, extensible, Filter for React.js",
     "homepage": "https://github.com/reactmob/dos-filter",
