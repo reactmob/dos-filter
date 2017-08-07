@@ -25,8 +25,8 @@ const countries = [
 
 const countryOptions = {
     items: countries,
-    valueField: 'id',
-    displayField: item => `${item['firstName']} ${item['lastName']}`,
+    valueField: 'abbr',
+    displayField: item => `${item['abbr']} - ${item['name']}`,
     /*items: RemoteConfig.create({
         url: 'http://127.0.0.1:8899/api/v1/customers/',
         parser: (data) => {
