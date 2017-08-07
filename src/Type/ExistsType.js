@@ -4,7 +4,7 @@ import AbstractType  from './AbstractType';
 
 const FILTER_EQUAL = 'EQUAL';
 
-export class ChoiceConfig {
+export class ExistsChoiceConfig {
     constructor({ yesLabel = 'Yes', yesValue = 1, noLabel = 'No', noValue = 0 } = {}) {
         this.yesLabel = yesLabel;
         this.yesValue = yesValue;
@@ -13,7 +13,7 @@ export class ChoiceConfig {
     }
 
     static create(arg) {
-        return new ChoiceConfig(arg);
+        return new ExistsChoiceConfig(arg);
     }
 }
 
@@ -21,11 +21,11 @@ export default class ExistsType extends AbstractType {
     static defaultOperator = FILTER_EQUAL;
 
     static propTypes = {
-        choice: PropTypes.instanceOf(ChoiceConfig),
+        choice: PropTypes.instanceOf(ExistsChoiceConfig),
     };
 
     static defaultProps = {
-        choice: ChoiceConfig.create(),
+        choice: ExistsChoiceConfig.create(),
     };
 
     validate(value) {
