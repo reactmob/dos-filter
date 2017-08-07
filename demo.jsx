@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Set } from 'immutable';
 
 import './style.scss';
 import { Filter, RemoteConfig, FilterList, StringType, NumberType, DateType, SelectType, ExistsType } from 'reactmob-filter';
