@@ -1,6 +1,6 @@
 {
     "name": "reactmob-dos-filter",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "private": false,
     "description": "Accessible, extensible, Filter for React.js",
     "homepage": "https://github.com/reactmob/dos-filter",
@@ -12,6 +12,8 @@
         "url": "https://github.com/reactmob/dos-filter/issues"
     },
     "main": "./dist/index.js",
+    "module": "./src/index.js",
+    "jsnext:main": "./src/index.js",
     "keywords": [
         "reactmob",
         "react",
