@@ -13,7 +13,6 @@
     },
     "main": "./lib/index.js",
     "jsnext:main": "./src/index.js",
-    "jsnext:Fabric": "./src/Fabric/index.js",
     "keywords": [
         "reactmob",
         "react",
@@ -25,7 +24,7 @@
     "license": "MIT",
     "scripts": {
         "test": "BABEL_JEST_STAGE=0 jest",
-        "prepare": "babel ./src --out-dir ./lib --source-maps --presets es2015,stage-0,react",
+        "prepare": "rm -rf ./lib && babel ./src --out-dir ./lib --source-maps --presets es2015,stage-0,react",
         "start": "webpack-dev-server --hot --inline",
         "demo": "webpack"
     },

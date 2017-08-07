@@ -3,14 +3,16 @@ import PropTypes from 'prop-types';
 import Autocomplete  from 'react-autocomplete';
 import { debounce } from 'throttle-debounce';
 import AbstractType  from './AbstractType';
-import RemoteConfig from './SelectType/RemoteConfig';
+import RemoteConfig from './ChoiceType/RemoteConfig';
 
 const FILTER_EQUAL = 'EQUAL';
 const FILTER_NOT_EQUAL = 'NOT_EQUAL';
 const FILTER_IN = 'IN';
 const FILTER_NOT_IN = 'NOT_IN';
 
-export default class SelectType extends AbstractType {
+export const ChoiceRemoteConfig = RemoteConfig;
+
+export default class ChoiceType extends AbstractType {
     static defaultOperator = FILTER_EQUAL;
 
     static propTypes = {

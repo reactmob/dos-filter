@@ -1,9 +1,9 @@
 import React from 'react';
 import { Dropdown } from 'office-ui-fabric-react/lib/Dropdown';
-import BaseSelectType from '../../Type/SelectType';
+import BaseChoiceType from '../../Type/ChoiceType';
 import AbstractRenderer from './AbstractRenderer';
 
-export default class SelectType extends BaseSelectType {
+export default class ChoiceType extends BaseChoiceType {
     static defaultProps = {
         doRenderOperatorList: AbstractRenderer.doRenderOperatorList(),
     };

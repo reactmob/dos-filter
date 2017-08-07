@@ -20,10 +20,10 @@ export default class DateType extends StringType {
             [FILTER_EQUAL]: 'On',
             [FILTER_BETWEEN]: 'Between',
             [FILTER_NOT_BETWEEN]: 'Not Between',
-            [FILTER_GREATER_THAN]: 'after',
-            [FILTER_GREATER_THAN_EQUALS]: 'on or after',
-            [FILTER_LESS_THAN]: 'before',
-            [FILTER_LESS_THAN_EQUALS]: 'on or before',
+            [FILTER_GREATER_THAN]: 'After',
+            [FILTER_GREATER_THAN_EQUALS]: 'On or After',
+            [FILTER_LESS_THAN]: 'Before',
+            [FILTER_LESS_THAN_EQUALS]: 'On or Before',
         };
     }
 

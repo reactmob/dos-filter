@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Set } from 'immutable';
 
 import './style.scss';
-import { Filter, RemoteConfig, FilterList, StringType, NumberType, DateType, SelectType, ExistsType } from 'reactmob-filter';
+import { Filter, ChoiceRemoteConfig, FilterList, StringType, NumberType, DateType, ChoiceType, ExistsType } from 'reactmob-filter';
 
 const countries = [
     { abbr: 'AL', name: 'Alabama' },
@@ -28,7 +28,7 @@ const countryOptions = {
     items: countries,
     valueField: 'abbr',
     displayField: item => `${item['abbr']} - ${item['name']}`,
-    /*items: RemoteConfig.create({
+    /*items: ChoiceRemoteConfig.create({
         url: 'http://127.0.0.1:8899/api/v1/customers/',
         parser: (data) => {
             if (data && data['_embedded']) {

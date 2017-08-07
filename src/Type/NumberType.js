@@ -22,17 +22,17 @@ export default class NumberType extends StringType {
      */
     getOperators() {
         return {
-            [FILTER_EQUAL]: 'EQUAL',
-            [FILTER_NOT_EQUAL]: 'NOT_EQUAL',
-            [FILTER_CONTAINS]: 'CONTAINS',
-            [FILTER_NOT_CONTAINS]: 'NOT_CONTAINS',
-            [FILTER_IN]: 'IN',
-            [FILTER_NOT_IN]: 'NOT_IN',
+            [FILTER_EQUAL]: 'Equal',
+            [FILTER_NOT_EQUAL]: 'Not Equal',
+            [FILTER_CONTAINS]: 'Contains',
+            [FILTER_NOT_CONTAINS]: 'Not Contains',
+            [FILTER_IN]: 'In',
+            [FILTER_NOT_IN]: 'Not In',
             [FILTER_BETWEEN]: 'Between',
             [FILTER_NOT_BETWEEN]: 'Not Between',
-            [FILTER_GREATER_THAN]: 'GREATER_THAN',
+            [FILTER_GREATER_THAN]: 'Greater than',
             [FILTER_GREATER_THAN_EQUALS]: 'Greater than equals',
-            [FILTER_LESS_THAN]: 'LESS_THAN',
+            [FILTER_LESS_THAN]: 'Less than',
             [FILTER_LESS_THAN_EQUALS]: 'Less than equals',
         };
     }
