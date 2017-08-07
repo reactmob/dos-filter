@@ -1,0 +1,19 @@
+.dos-filter {
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        display: block;
+
+        > * {
+            display: inline-block;
+        }
+    }
+
+    &__type {
+        > * {
+            display: inline-block;
+        }
+    }
+}

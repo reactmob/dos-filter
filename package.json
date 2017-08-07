@@ -1,0 +1,30 @@
+{
+    "name": "@reactmob/dos-filter",
+    "version": "1.0.0",
+    "description": "Accessible, extensible, Filter for React.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/reactmob/dos-filter.git"
+    },
+    "homepage": "https://github.com/reactmob/dos-filter",
+    "bugs": "https://github.com/reactmob/dos-filter/issues",
+    "main": "src/index.js",
+    "authors": [
+        "Liverbool <nukboon@gmail.com>"
+    ],
+    "license": "MIT",
+    "scripts": {
+    },
+    "devDependencies": {
+    },
+    "dependencies": {
+        "immutable-js": "^0.3.1-6",
+        "prop-types": "^15.5.10",
+        "react-autocomplete": "^1.5.10",
+        "throttle-debounce": "^1.0.1"
+    },
+    "peerDependencies": {
+        "react": "^0.14.9 || ^15.0.1-0 || ^16.0.0-0",
+        "react-dom": "^0.14.9 || ^15.0.1-0 || ^16.0.0-0"
+    }
+}
