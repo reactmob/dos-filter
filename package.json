@@ -3,21 +3,26 @@
     "version": "1.0.0",
     "private": false,
     "description": "Accessible, extensible, Filter for React.js",
+    "homepage": "https://github.com/reactmob/dos-filter",
     "repository": {
         "type": "git",
-        "url": "https://github.com/reactmob/dos-filter.git"
+        "url": "git+https://github.com/reactmob/dos-filter.git"
     },
-    "homepage": "https://github.com/reactmob/dos-filter",
-    "bugs": "https://github.com/reactmob/dos-filter/issues",
+    "bugs": {
+        "url": "https://github.com/reactmob/dos-filter/issues"
+    },
     "main": "src/index.js",
-    "authors": [
-        "Liverbool <nukboon@gmail.com>"
+    "keywords": [
+        "reactmbo",
+        "react",
+        "reactjs",
+        "filter",
+        "react-filter"
     ],
+    "author": "liverbool <nukboon@gmail.com>",
     "license": "MIT",
-    "scripts": {
-    },
-    "devDependencies": {
-    },
+    "scripts": {},
+    "devDependencies": {},
     "dependencies": {
         "immutable-js": "^0.3.1-6",
         "prop-types": "^15.5.10",
@@ -25,7 +30,7 @@
         "throttle-debounce": "^1.0.1"
     },
     "peerDependencies": {
-        "react": "^0.14.9 || ^15.0.1-0 || ^16.0.0-0",
-        "react-dom": "^0.14.9 || ^15.0.1-0 || ^16.0.0-0"
+        "react": "^15.0.1-0 || ^16.0.0-0",
+        "react-dom": "^15.0.1-0 || ^16.0.0-0"
     }
 }
