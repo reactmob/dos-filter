@@ -25,12 +25,12 @@ import { Set } from 'immutable';
 import './style.scss';
 import {
   Filter,
-  RemoteConfig,
+  ChoiceRemoteConfig,
   FilterList,
   StringType,
   NumberType,
   DateType,
-  SelectType,
+  ChoiceType,
   ExistsType
 } from 'reactmob-filter';
 
@@ -57,7 +57,7 @@ const countryOptions = {
     items: countries,
     valueField: 'abbr',
     displayField: item => `${item['abbr']} - ${item['name']}`,
-    /*items: RemoteConfig.create({
+    /*items: ChoiceRemoteConfig.create({
         url: 'http://127.0.0.1:8899/api/v1/countries/',
         parser: (data) => {
             if (data && data['_embedded']) {
@@ -73,7 +73,7 @@ const fields = new Set([
     Filter.create({ name: 'first_name', label: 'First Name', type: StringType }),
     Filter.create({ name: 'birthday', label: 'Birthday', type: DateType }),
     Filter.create({ name: 'age', label: 'Age', type: NumberType }),
-    Filter.create({ name: 'country', label: 'Country', type: SelectType, options: countryOptions }),
+    Filter.create({ name: 'country', label: 'Country', type: ChoiceType, options: countryOptions }),
     Filter.create({ name: 'enabled', label: 'Enabled', type: ExistsType }),
 ]);
 
